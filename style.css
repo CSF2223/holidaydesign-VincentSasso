@@ -1,0 +1,12 @@
+.MainTitle {
+    background-color: red;
+}
+
+img {
+    border-radius: 6rem;
+    box-shadow: 10px 10px #000;
+    width: 20%;
+    height: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
