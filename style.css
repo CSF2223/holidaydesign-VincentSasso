@@ -1,12 +1,24 @@
 .MainTitle {
-    background-color: red;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 
 img {
-    border-radius: 6rem;
-    box-shadow: 10px 10px #000;
+  flex-direction: column;
+  border-radius: 6rem;
     width: 20%;
     height: 20%;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: auto;
+}
+
+.Christmas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem 5rem 1rem 0;
+  margin-left: 40%;
+  font-size: 2rem;
+  border: 1rem outset #1C6EA4;
+  border-radius: 5rem;
 }
